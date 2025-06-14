@@ -145,3 +145,64 @@ footer {
     width: 80%;
   }
 }
+
+
+/* Project CSS */
+
+.project-detail {
+  max-width: 800px;
+  margin: auto;
+  padding: 4rem 2rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.project-detail h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #0077b6;
+}
+
+.project-detail .tagline {
+  font-style: italic;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.project-detail p {
+  margin-bottom: 1rem;
+}
+
+.project-detail ul.tech-icons {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tech-icons li {
+  background: #f1f1f1;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.project-detail a.btn {
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+.project-detail a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.project-detail a:hover {
+  text-decoration: underline;
+}
+
